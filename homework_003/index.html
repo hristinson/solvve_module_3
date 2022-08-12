@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/css.css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAC5ubkAnZ2dAIKCggBmZmYAZ2dnUiUlJawAAADoAAAA7gAAAO4BAQHoKCgorG5ublJxcXEAjIyMAKWlpQDAwMAAubm5AKGhoQB4eHgaLCwssgAAAP8AAAD/LCws/0dHR/9HR0f/LCws/wAAAP8AAAD/MTExs4KCghqpqakAwMDAALm5uQChoaEZGhoa0wAAAP9CQkL/rq6u/9vb2//m5ub/5ubm/9ra2v+urq7/Q0ND/wAAAP8dHR3Tq6urGcHBwQDc3NwDLCwstgAAAP9oaGj/5OTk/+vr6//o6Oj/29vb/93d3f/p6en/6enp/+Tk5P9paWn/AAAA/zAwMLbj4+MDhoaGUQAAAP9GRkb/6Ojo/+vr6//Kysr/V1dX/x0dHf8kJCX/cHBx/9ra2//n5+f/6Ojo/0dHR/8AAAD/i4uLUR8fH7MFBQX/vr6+//j4+P/S0tL/IyMj/xoaGv90dHT/aGho/wsLC/9GRkb/5eXm//Ly9f+9vcD/BAQE/yEhIbMBAQHqKysr/8zMy//X19f/Xl5e/x0dHf/U1NT/7e3t/+/v7/+4uLj/CAgI/4yMjP/W1tb/zMzL/ysrK/8CAgLrAAAA7wQEAP8KCgD/CQkA/wAAAP9/f4D/+fn5/+Xl5f/m5ub/9/f3/1NTVP8CAgD/CgoA/woKAP8FBQH/AAAA7wAAAO8AACT/AABy/wAAcv8AAB7/fn53///////w8PD/8fHx//////9TU0v/AAAl/wAAc/8AAHP/AAAl/wAAAO8GBgHqAAA6/wAA//8AAP//AACT/yUlFf/b29n///////////+5ubb/DQ0C/wAApP8AAP//AAD//wAAO/8ICALqIiIfswAAA/8AALb/AADr/wAA4P8AAEn/GRkQ/2lpW/9eXlH/CwsD/wAAV/8AAOP/AADq/wAAt/8AAAP/JCQhs4WFhVEAAAD/AAA//wAA1/8AANb/AADQ/wAAf/8AAFv/AABc/wAAhP8AANL/AADW/wAA2P8AAEL/AAAA/4uLi1Hc3NwDLCwstgAAAP8AAFv/AADG/wAAyv8AAM3/AADP/wAAz/8AAM3/AADK/wAAx/8AAFz/AAAA/zAwL7fj4+MDubm5AJ+fnxoZGRjTAAAA/wAANf8AAI3/AACx/wAAuv8AALr/AACx/wAAjv8AADb/AAAA/x0dHNOnp6cav7+/ALm5uQCenp4AdHR0GiwsK7IAAAD/AAAA/wAAIv8AADj/AAA4/wAAIf8AAAD/AAAA/zMzM7KCgoIapaWlAL+/vwC5ubkAmpqaAH5+fgBkZGQAYWFhUiQkI6sGBgDoAAAA7gAAAO4ICAHoKiooq2xsbFJ0dHQAjY2NAKGhoQC/v78A+B8AAOAHAADAAwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAgAEAAMADAADgBwAA+B8AAA==" rel="icon" type="image/x-icon" />
+    <title>Pokemon API</title>
+</head>
+
+<body>
+    <div class="container w-50" id="App">
+        
+        <table class="table">
+            <tr>
+                <td>
+                    <button type="button" class="btn btn-secondary" id="buttonLeft"><</button>
+                </td>
+                <td>
+        
+            <div class="pokemon" id="pokemonSpiner"></div>
+        </div>
+        <div class="" id="monsters_list"></div>
+        <nav><ul class="pagination"></ul></nav>
+        <div id="modalPokemon" class="modal">
+            <div class="modal-content" id="modal-content"><span class="close">&times;</span></div>
+        </div>
+                </td>
+            <td>
+                <button type="button" class="btn btn-secondary" id="buttonRight">></button>
+            </td>
+    </tr>
+    </table>
+
+    
+    </div>
+
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
+
+
